@@ -29,3 +29,10 @@ button {
     background-color: var(--third-color);
     color: var(--secondary-text);
 }
+div {
+    background-color: var(--third-color);
+    width: 250px
+}
+img {
+    width: 100%;
+}
