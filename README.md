@@ -1,4 +1,4 @@
-# bit-website
+# bit-1
 ## SneakX
 
 This project is about Sneakers. SneakX is a website where your sneakers dreams could become a reality. A trade, sell and buy website for sneakers of every kind, brand and whatever you are looking for, only sneakers. 
