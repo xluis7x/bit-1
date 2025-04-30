@@ -2,37 +2,105 @@
     box-sizing: border-box;
 }
 :root {
-    --background: #000;
-    --text: #FFF;    /*text on black backgrounds*/
+    --background: #000000;
+    --text: #FFFFFF;    /*text on black backgrounds*/
     --third-color: #FF2C2C;    /*buttons, icons, etc*/
     --secondary-backgrounds: #1A1A1A;  
     --secondary-text: #E0E0E0;    /*secondary text or borders*/
+    --light-red: #e96565;
 }
 body {
     background-color: var(--background);
 }
-h1, p {
+h1 {
     color: var(--text);
+    font-size: 54px;
 }
-h1{
+p {
+    color: var(--secondary-text);
+}
+/*text fonts*/
+h1, .btn, h2{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 900;
     font-style: normal;
   }
 p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+} 
+/*              */
+
+/*header */
+header {
+    width: 95%;
+    margin: 20px auto;
 }
-button {
-    background-color: var(--third-color);
-    color: var(--secondary-text);
-}
-div {
-    background-color: var(--third-color);
-    width: 250px
-}
-img {
+.header {
     width: 100%;
+}
+.btn {
+    background-color: var(--third-color);
+    border-color: var(--secondary-text);
+    border-radius: 12px;
+    padding: 8px 25px;
+    margin: 15px;
+}
+.btn:hover, .btn:first-child:hover, :not(.btn-check)+.btn:active{
+    background-color: var(--secondary-text);
+    border-color: var(--third-color);
+    color: var(--third-color); 
+}
+.shoppingCart {
+    width: 100%;
+}
+.cart {
+    padding: 8px 15px;
+}
+/*              */
+
+/*top section*/
+.bgDiv {
+    width: 100%;
+    position: relative;
+}
+.bgS {
+    width: 100%;
+    opacity: 20%;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center; 
+    padding: 10px; 
+}
+.explore {
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+.toP {
+    font-size: 28px;
+}
+/*              */
+
+/*cards*/
+.cards {
+    width: 80%;
+    margin: auto;
+}
+.cardss {
+    background-color: var(--secondary-backgrounds);
+    border-radius: 12px;
+    padding: 25px 20px;
+}
+.cardsDrop {
+    opacity: 80%;
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
 }

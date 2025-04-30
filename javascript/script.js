@@ -1,2 +1,6 @@
-let num1 = 2;
-console.log(num1 + num1)
+'use strict';
+const $form = document.getElementById('form');
+
+$form.addEventListener('submit', (event) => {
+    event.preventDefault();
+});
