@@ -12,15 +12,18 @@
 body {
     background-color: var(--background);
 }
-h1 {
+h1, h2, h5, h6, .levelP{
     color: var(--text);
-    font-size: 54px;
 }
 p {
     color: var(--secondary-text);
 }
+hr {
+    opacity: 0%;
+    margin: 50px;
+}
 /*text fonts*/
-h1, .btn, h2{
+h1, .btn, h2, h6, .levelP{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -34,6 +37,9 @@ p {
 /*              */
 
 /*header */
+h1 {
+    font-size: 54px;
+}
 header {
     width: 95%;
     margin: 20px auto;
@@ -89,6 +95,9 @@ header {
 /*              */
 
 /*cards*/
+.cardH2 {
+    margin: 10px 200px;
+}
 .cards {
     width: 80%;
     margin: auto;
@@ -96,11 +105,143 @@ header {
 .cardss {
     background-color: var(--secondary-backgrounds);
     border-radius: 12px;
-    padding: 25px 20px;
+    padding: 35px 20px 10px;
 }
 .cardsDrop {
     opacity: 80%;
     width: 100%;
-    height: 50%;
+    height: 40%;
     border-radius: 8px;
+}
+.cardP {
+    font-size: 22px;
+    width: 80%;
+}
+.card {
+    color: var(--text);
+    margin: 20px auto;
+}
+/*              */
+
+/*how it works section */
+.midH2 {
+    margin: 0px 0px 70px;
+    text-align: center;
+}
+.midH5 {
+    color: var(--secondary-text);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+}
+.midSection {
+    width: 70%;
+    margin: auto;
+}
+.search {
+    background-color: var(--secondary-backgrounds);
+    padding: 50px;
+    width: 60%;
+    height: 100%;
+}
+.midP {
+    font-size: 21px;
+}
+.searchLogo {
+    width: 40%;
+    align-items: center;
+}
+.sLogo {
+    margin:40px 30px 30px 92px;
+    width: 45%;
+    padding: 20px;
+}
+/*              */
+
+/*small section*/
+.smallSection {
+    text-align: center;
+    background-color: var(--third-color);
+    border-top: solid 3px var(--secondary-text);
+    border-bottom: solid 3px var(--secondary-text);
+    padding: 20px;
+    
+}
+h6 {
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
+/*              */
+
+/*call to action*/
+.CTA {
+    width: 87%;
+    margin: auto;
+    background-color: var(--third-color);
+    padding: 50px 50px 0px;
+    border-radius: 50px;
+    border: solid 4px var(--secondary-text);
+}
+.level {
+    width: 50%;
+    padding: 90px 110px;
+}
+.start {
+    width: 50%;
+    padding: 15px;
+}
+.bps {
+    width: 90%;
+    border-radius: 25px;
+    margin: 25px 20px 10px;
+}
+.levelP{
+    font-size: 54px;
+}
+.levelH2 {
+    font-size: 114px;
+    text-shadow:
+    10px 1px 0 #c00,
+    -1px -1px 0 #c00,
+    10px -1px 0 #c00,
+    -1px 1px 0 #c00,
+    0 0 6px #a00;
+}
+.startN {
+    background-color: var(--background);
+    color: var(--secondary-text);
+    padding: 10px 40px;
+    margin-left: -5px;
+}
+.carousel-control-next{
+    margin-right: 15px; 
+}
+/*              */
+
+/*footer*/
+.footer {
+    width: 100.8%;
+    background-color: var(--secondary-backgrounds);
+}
+.links, .rights {
+    padding: 48px 20px 20px;
+    text-align: center;
+}
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: var(--secondary-text);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a:hover {
+    color: var(--third-color);
+}
+.logoW {
+    width: 60%;
+    padding: 10px 0px;
+    margin-left: 42px;
 }
