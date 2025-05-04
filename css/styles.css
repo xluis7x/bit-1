@@ -12,24 +12,26 @@
 body {
     background-color: var(--background);
 }
-h1, h2, h5, h6, .levelP{
+h1, h2, h5, h6, .levelP {
     color: var(--text);
 }
-p {
+p, label {
     color: var(--secondary-text);
 }
 hr {
     opacity: 0%;
-    margin: 50px;
+    margin: 50px auto;
+    width: 90%;
+    
 }
 /*text fonts*/
-h1, .btn, h2, h6, .levelP{
+h1, .btn, h2, h6, .levelP {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
   }
-p {
+p, label, .message{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -209,7 +211,7 @@ h6 {
     -1px 1px 0 #c00,
     0 0 6px #a00;
 }
-.startN {
+.startN, .talk {
     background-color: var(--background);
     color: var(--secondary-text);
     padding: 10px 40px;
@@ -244,4 +246,48 @@ a:hover {
     width: 60%;
     padding: 10px 0px;
     margin-left: 42px;
+}
+/*              */
+
+/*contact page*/
+.contactHead {
+    text-align: center;
+    margin: 20px 40px;
+    padding: 50px 45px;
+}
+.contactH1{
+    font-size: 38px;
+}
+.form-box{
+    display: grid;  
+    grid-template-columns: 50%;
+    background-color: var(--third-color);
+    width: 60%;
+    margin: auto;
+    border-radius: 45px;
+    border: solid 4px var(--secondary-text);
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    width: 100%;
+    margin: auto;
+    padding: 45px;
+}
+input, textarea {
+    background-color: var(--secondary-backgrounds);
+    width: 100%;
+    height: 50px;
+    border: solid 2px var(--secondary-text);
+    border-radius: 12px;
+    color: var(--text);
+    padding: 15px;
+    font-size: 16px;
+}
+.message {
+    height: 100px;
+}
+.talk {
+    font-size: 16px;
+    font-style: italic;
 }

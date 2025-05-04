@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us | SneakX</title>
-  <link rel="stylesheet" href="./contact.css" />
+  <link rel="shortcut icon" href="./assets/WHITELOGO.png" type="image/x-icon">
+  <link rel="stylesheet" href=".//css/styles.css" />
+
 </head>
+
 <body>
-  <section class="contact-section">
-    <div class="container">
-      <h1>Contact SneakX</h1>
-      <p>Got questions, suggestions, or ready to make your next sneaker move? Drop us a line.</p>
-
-      <div class="contact-form">
-        <form action="mailto:info@sneakx.com" method="POST" enctype="text/plain">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your Name" required />
-
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="you@example.com" required />
-
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Type your message..." rows="5" required></textarea>
-
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-
-      <div class="contact-info">
-        <h3>Or reach us directly</h3>
-        <p><strong>Email:</strong> info@sneakx.com</p>
-        <p><strong>Instagram:</strong> @sneakx.official</p>
-        <p><strong>WhatsApp:</strong> +44 7123 456789</p>
-      </div>
+  <header>
+    <div class="contactHead">
+      <h1 class="contactH1">“QUESTIONS, TRADES, OR JUST SOME SNEAKER TALK? <br> WE'RE HERE FOR YOU”</h1>
     </div>
-  </section>
+  </header>
+  <div class="form-box">
+    <div class="form">
+      <h2>Contact Form</h2>
+      <br>
+      <form>
+        <label for="name">Full Name</label>
+        <br>
+        <br>
+        <input type="text" id="name" required />
+        <br>
+        <br>
+        <label for="email">E-mail</label>
+        <br>
+        <br>
+        <input type="email" id="email" required />
+        <br>
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <br>
+        <textarea class="message" name="message" id="message"></textarea>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary talk"> Let's Talk</button>
+      </form>
+    </div>
+  </div>
+  <hr>
 </body>
+
 </html>
