@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 :root {
     --background: #000000;
@@ -44,7 +45,7 @@ h1 {
 }
 header {
     width: 95%;
-    margin: 20px auto;
+    margin: auto;
 }
 .header {
     width: 100%;
@@ -65,7 +66,12 @@ header {
     width: 100%;
 }
 .cart {
+    margin: 15px;
     padding: 8px 15px;
+}
+.menu {
+    padding: 20px;
+    font-size: 20px;
 }
 /*              */
 
@@ -179,7 +185,7 @@ h6 {
 
 /*call to action*/
 .CTA {
-    width: 87%;
+    width: 80%;
     margin: auto;
     background-color: var(--third-color);
     padding: 50px 50px 0px;
@@ -188,22 +194,22 @@ h6 {
 }
 .level {
     width: 50%;
-    padding: 90px 110px;
+    padding: 20px 110px;
 }
 .start {
     width: 50%;
     padding: 15px;
 }
 .bps {
-    width: 90%;
+    width: 87%;
     border-radius: 25px;
-    margin: 25px 20px 10px;
+    margin: 0px 28px 40px;
 }
 .levelP{
-    font-size: 54px;
+    font-size: 50px;
 }
 .levelH2 {
-    font-size: 114px;
+    font-size: 104px;
     text-shadow:
     10px 1px 0 #c00,
     -1px -1px 0 #c00,
@@ -220,8 +226,19 @@ h6 {
 .carousel-control-next{
     margin-right: 15px; 
 }
+.carousel {
+    opacity: 90%;
+}
 /*              */
-
+.top {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    opacity: 90%;
+}
+.up {   
+    width: 8%;
+}
 /*footer*/
 .footer {
     width: 100.8%;
@@ -246,6 +263,27 @@ a:hover {
     width: 60%;
     padding: 10px 0px;
     margin-left: 42px;
+}
+/*              */
+
+/*login page*/
+.backLogin {
+    background-image: url("../assets/LOGINBACKGROUND.jpg");
+    height: 100vh;
+}
+.formlog {
+    text-align: center;
+}
+.login{
+    background-color: var(--third-color);
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 25px;
+    border: solid 2px var(--secondary-text);
+}
+.loginput {
+    width: 50%;
 }
 /*              */
 
