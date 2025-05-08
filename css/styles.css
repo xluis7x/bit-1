@@ -64,9 +64,10 @@ header {
 }
 .shoppingCart {
     width: 100%;
+    margin: 0px;
 }
 .cart {
-    margin: 15px;
+    margin: 0px;
     padding: 8px 15px;
 }
 .menu {
@@ -157,7 +158,6 @@ header {
 }
 .searchLogo {
     width: 40%;
-    align-items: center;
 }
 .sLogo {
     margin:40px 30px 30px 92px;
@@ -329,3 +329,420 @@ input, textarea {
     font-size: 16px;
     font-style: italic;
 }
+/*              */
+
+/*media queries*/
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+
+  }
+
+  @media screen and (max-width: 1200px) {
+    .btn {
+        margin: 0px;
+    }
+    .sing{
+        margin: 15px 0px;
+    }
+    /*              */
+
+    /*top section*/
+    .overlay-text {
+        width: 80%;
+    }
+    /*              */
+
+    /*cards section*/
+    .cardH2 {
+        margin: 0px 150px;
+    }
+    .cardss { 
+        padding: 35px 30px;
+    }
+    .col-3 {
+        width: 30%;
+        margin: 10px
+    }
+    /*              */
+    
+    /*how it works section */
+    .searchLogo {
+        width: 30%;
+    }
+    .sLogo{
+        width: 70%;
+        margin: 60px 30px;
+    }
+    /*              */
+    
+    /*call to action*/
+    .CTA {
+        width: 70%;
+        padding: 0px;
+    }
+    .level{
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+    }
+    .start {
+        width: 70%;
+        margin-left: 140px;
+    }
+    .carousel-control-prev{
+        margin-left: 2px; 
+    }
+    .carousel-control-next{
+        margin-right: 15px; 
+    }
+    /*              */
+    /*footer*/
+    .footer {
+        width: 101%;
+    }
+    .logoW {
+        width: 80%;
+        margin-top: 5px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .btn {
+        margin: 0px;
+    }
+    .sing{
+        margin: 15px 0px;
+    }
+    /*              */
+
+    /*top section*/
+    .overlay-text {
+        width: 80%;
+    }
+    hr {
+        margin: 10px auto;
+    }
+    /*              */
+
+    /*cards section*/
+    .cardss { 
+        padding: 35px 30px;
+    }
+    .col-3 {
+        width: 35%;
+        margin: 20px
+    }
+    /*              */
+    
+    /*how it works section */
+    .search {
+        width: 70%;
+    }
+    .searchLogo {
+        width: 30%;
+        margin: 0px;
+    }
+    .sLogo{
+        width: 90%;
+        margin: 60px 0px;
+        padding: 10px;
+    }
+    /*              */
+    
+    /*small section*/
+    .smallSection {
+        margin: 50px 0px;
+    }
+    /*              */
+
+    /*call to action*/
+    .CTA {
+        width: 70%;
+        padding: 0px;
+    }
+    .level{
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+    }
+    .start {
+        width: 70%;
+        margin-left: 110px;
+    }
+    .carousel-control-prev{
+        margin-left: 2px; 
+    }
+    .carousel-control-next{
+        margin-right: 5px; 
+    }
+    /*              */
+    .top {
+    width: 70%;
+    }
+    /*footer*/
+    .footer{
+        width: 101.2%;
+    }
+    .links, .rights {
+        padding: 30px 30px 8px;
+    }
+    .logoW {
+        width: 80%;
+        margin-top: 5px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    header {
+        width: 100%; 
+    }
+    h1 {
+        font-size: 37px;
+    }
+    .btn {
+        margin: 0px;
+    }
+    .sing{
+        margin: 15px 0px;
+    }
+    /*              */
+
+    /*top section*/
+    .toP {
+        font-size: 25px;
+    }
+    .overlay-text {
+        width: 80%;
+    }
+    hr {
+        margin: 10px auto;
+    }
+    /*              */
+
+    /*cards section*/
+    .cardH2 {
+        margin: 5px 80px;
+    }
+    .cards {
+        width: 100%;
+    }
+    .cardss { 
+        padding: 35px 30px;
+    }
+    .col-3 {
+        width: 35%;
+        margin: 20px
+    }
+    /*              */
+    
+    /*how it works section */
+    .search {
+        width: 70%;
+    }
+    .searchLogo {
+        width: 30%;
+        margin: 0px;
+    }
+    .sLogo{
+        width: 100%;
+        margin: 110px 0px 50px;
+        padding: 10px;
+    }
+    /*              */
+    
+    /*small section*/
+    h6 {
+        font-size: 18px;
+    }
+    .smallSection {
+        margin: 50px 0px;
+    }
+    /*              */
+
+    /*call to action*/
+    .CTA {
+        padding: 0px;
+    }
+    .level{
+        width: 80%;
+        margin: auto;
+        padding: 50px 70px;
+    }
+    .levelP {
+        font-size: 60px;
+    }
+    .levelH2 {
+        font-size: 100px;
+    }
+    .start {
+        width: 80%;
+        margin-left: 70px;
+    }
+    .carousel-control-prev{
+        margin-left: 2px; 
+    }
+    .carousel-control-next{
+        margin-right: 5px; 
+    }
+    /*              */
+    .top {
+    width: 100%;
+    }
+    /*footer*/
+    .footer{
+        width: 101.6%;
+    }
+    a {
+        margin: 20px;
+    }
+    .links, .rights {
+        padding: 30px 30px 8px;
+    }
+    .logoW {
+        width: 100%;
+        padding: 0px;
+        margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    header {
+        width: 100%; 
+    }
+    h1 {
+        font-size: 27px;
+    }
+    .btn {
+        margin: 0px;
+    }
+    .shoppingCart {
+        width: 25px;
+        margin: 0px;
+    }
+    .cart {
+        margin: 3px 0px;
+        padding: 8px;
+    }
+    .sing{
+        margin: 15px 0px;
+    }
+    .menu {
+        font-size: 16px;
+        padding: 12px 0px;
+    }
+    .menua{
+        font-size: 16px;
+        padding: 2px 0px;
+    }
+    .menudrop {
+        padding: 10px;
+    }
+    /*              */
+
+    /*top section*/
+    .toP {
+        font-size: 22px;
+    }
+    .overlay-text {
+        width: 70%;
+    }
+    hr {
+        margin: 10px auto;
+    }
+    /*              */
+
+    /*cards section*/
+    .cardH2 {
+        margin: 5px 80px;
+    }
+    .cards {
+        width: 100%;
+    }
+    .cardss { 
+        padding: 35px 30px;
+    }
+    .col-3 {
+        width: 50%;
+        margin: 20px
+    }
+    .cardP {
+        font-size: 18px;
+    }
+    /*              */
+    
+    /*how it works section */
+    .midP{
+        font-size: 18px;
+    }
+    .search {
+        width: 70%;
+    }
+    .searchLogo {
+        width: 30%;
+        margin: 0px;
+    }
+    .sLogo{
+        width: 100%;
+        margin: 140px 0px 50px;
+        padding: 10px;
+    }
+    /*              */
+    
+    /*small section*/
+    h6 {
+        font-size: 18px;
+    }
+    .smallSection {
+        margin: 50px 0px;
+    }
+    /*              */
+
+    /*call to action*/
+    .CTA {
+        padding: 0px;
+    }
+    .level{
+        width: 80%;
+        padding: 50px 70px;
+    }
+    .levelP {
+        font-size: 50px;
+    }
+    .levelH2 {
+        font-size: 80px;
+    }
+    .start {
+        width: 80%;
+        margin-left: 40px;
+    }
+    .carousel-control-prev{
+        margin-left: 15px; 
+    }
+    .carousel-control-next{
+        margin-right: 0px; 
+    }
+    /*              */
+    .top {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    opacity: 90%;
+    }
+    .up {   
+    width: 10%;
+    }
+    /*footer*/
+    .footer{
+        width: 102.1%;
+    }
+    a {
+        margin: 5px;
+    }
+    
+    .logoW {
+        width: 100%;
+        padding: 0px;
+        margin-left: 20px;
+        margin-top: 45px;
+    }
+  }
+/*              */
