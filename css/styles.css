@@ -333,7 +333,35 @@ input, textarea {
 
 /*media queries*/
 @media screen and (min-width: 1201px) and (max-width: 1300px) {
-
+    /*call to action*/
+    .CTA {
+        width: 70%;
+        padding: 0px;
+    }
+    .level{
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+    }
+    .start {
+        width: 70%;
+        margin-left: 140px;
+    }
+    .carousel-control-prev{
+        margin-left: 2px; 
+    }
+    .carousel-control-next{
+        margin-right: 15px; 
+    }
+    /*              */
+    /*footer*/
+    .footer {
+        width: 100.9%;
+    }
+    .logoW {
+        width: 80%;
+        margin-top: 5px;
+    }
   }
 
   @media screen and (max-width: 1200px) {
@@ -405,7 +433,7 @@ input, textarea {
     }
   }
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1090px) {
     .btn {
         margin: 0px;
     }
@@ -466,13 +494,13 @@ input, textarea {
     }
     .start {
         width: 70%;
-        margin-left: 110px;
+        margin-left: 120px;
     }
     .carousel-control-prev{
         margin-left: 2px; 
     }
     .carousel-control-next{
-        margin-right: 5px; 
+        margin-right: 10px; 
     }
     /*              */
     .top {
@@ -480,7 +508,7 @@ input, textarea {
     }
     /*footer*/
     .footer{
-        width: 101.2%;
+        width: 101.1%;
     }
     .links, .rights {
         padding: 30px 30px 8px;
@@ -565,7 +593,7 @@ input, textarea {
     .level{
         width: 80%;
         margin: auto;
-        padding: 50px 70px;
+        padding: 50px;
     }
     .levelP {
         font-size: 60px;
@@ -575,10 +603,10 @@ input, textarea {
     }
     .start {
         width: 80%;
-        margin-left: 70px;
+        margin-left: 55px;
     }
     .carousel-control-prev{
-        margin-left: 2px; 
+        margin-left: 10px; 
     }
     .carousel-control-next{
         margin-right: 5px; 
@@ -702,7 +730,7 @@ input, textarea {
     }
     .level{
         width: 80%;
-        padding: 50px 70px;
+        padding: 50px 30px;
     }
     .levelP {
         font-size: 50px;
@@ -742,7 +770,7 @@ input, textarea {
         width: 100%;
         padding: 0px;
         margin-left: 20px;
-        margin-top: 45px;
+        margin-top: 30px;
     }
   }
 /*              */
