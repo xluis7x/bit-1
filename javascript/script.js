@@ -1,32 +1,18 @@
 'use strict';
+const form = document.getElementById("formcontact");
 
- /* Crear 4 funciones que lean dos números y cada función deberá
-realizar una operación aritmetica básica + - x /
-imprimir en consola el resultado así: 10 + 5 = 15
-*/
-const num1 = 10;
-const num2 = 5;
-function suma() {
-    let resultado = num1 + num2;
-    console.log(`${num1} + ${num2} = ${resultado}`);
-}           
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
 
-function resta() {
-    let resultado = num1 - num2;
-    console.log(`${num1} - ${num2} = ${resultado}`);
-}
+  
+  const name = form.elements["name"].value;
+  const email = form.elements["email"].value;
+  const message = form.elements["message"].value;
+  
+  console.log(name);
+  console.log(email);
+  console.log(message);
 
-function multiplicacion() {
-    let resultado = num1 * num2;
-    console.log(`${num1} * ${num2} = ${resultado}`);
-}
-
-function division() {
-    let resultado = num1 / num2;
-        console.log(`${num1} / ${num2} = ${resultado}`);
-}
-
-suma();
-resta();
-multiplicacion();
-division();
+  const result = `Hi ${name}! We received your message "${message}". We'll send you an email to ${email}. We usually reply within 24h. Monday–Friday, 9AM–6PM (US time)!`; 
+  alert(result);
+});

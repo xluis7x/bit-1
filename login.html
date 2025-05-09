@@ -6,34 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="shortcut icon" href="./assets/LOGO.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/blacklogo.png" type="image/x-icon">
   <title>Login | SneakX</title>
 </head>
 
 <body>
+  <header class="back">
+    <a href="./index.html"><img src="./assets/back.svg" alt="" width="40px"></a>
+  </header>
+  <main>
+    <div class="backLogin img-fluid">
+      <div class="row box">
+        <div class="login">
+          <form class="formlog">
+            <h2>Welcome Back!</h2><br>
+            <label for="e-mail">E-mail</label>
+            <br>
+            <br>
+            <input class="loginput" type="email" id="e-mail" required />
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <br>
+            <input class="loginput" type="password" id="password" required />
+            <br>
+            <br>
+            <button type="submit" class="btn btn-primary talk">Login!</button>
+          </form>
+        </div>
+        <div class="sign">
+          <form class="formlog">
+            <h2>Want to join SneakX? Let's go!</h2><br><br>
+            <input class="loginput" type="text" id="name" placeholder="First Name*" required />
+            <br>
+            <br>
+            <input class="loginput" type="text" id="lastName" placeholder="Last Name*" required />
+            <br>
+            <br>
+            <input class="loginput" type="email" id="email" placeholder="E-mail*" required />
+            <br>
+            <br>
+            <input class="loginput" type="password" id="password" placeholder="Password*" required />
+            <br>
+            <br>
+            <button type="submit" class="btn btn-primary talk">Join Us!</button>
+        </div>
+      </div>
+    </div>
+  </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./javascript/script.js"></script>
 </body>
-<main>
-  <div class="backLogin img-fluid">
-    <div class="login overlay-text">
-      <form class="formlog">
-        <label for="username">Username</label>
-        <br>
-        <br>
-        <input class="loginput" type="text" id="username" required />
-        <br>
-        <br>
-        <label for="password">Password</label>
-        <br>
-        <br>
-        <input class="loginput" type="password" id="password" required />
-        <br>
-        <br>
-        <button type="submit" class="btn btn-primary talk">Continue</button>
-      </form>
-    </div>
-  </div>
-</main>
 
 </html>

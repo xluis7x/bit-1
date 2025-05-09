@@ -267,23 +267,47 @@ a:hover {
 /*              */
 
 /*login page*/
+.back {
+    float: left;
+    padding: 10px 0px;
+}
 .backLogin {
-    background-image: url("../assets/LOGINBACKGROUND.jpg");
+    background-image: url("../assets/backgroundlogin.jpg");
     height: 100vh;
+}
+.box {
+    display: grid;
+    grid-template-columns: 45% 50%;
+    gap: 5%;
+    width: 90%;
+    margin: auto;
 }
 .formlog {
     text-align: center;
 }
-.login{
+.login, .sign{
     background-color: var(--third-color);
-    width: 50%;
-    margin: auto;
     padding: 40px;
+    margin-top: 40px;
     border-radius: 25px;
     border: solid 2px var(--secondary-text);
 }
+.login {
+    height: 74%;
+    margin-top: 90px;
+    padding: 30px;
+}
 .loginput {
     width: 50%;
+}
+.or {
+    background-color: var(--light-red);
+    border-radius: 2px;
+    width: 80%;
+    margin: 5px auto;
+    padding: 10px 2px 1px;
+    color: var(--background);
+    text-align: center;
 }
 /*              */
 

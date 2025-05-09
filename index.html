@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="shortcut icon" href="./assets/LOGO.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/blacklogo.png" type="image/x-icon">
     <title>SNEAKX</title>
 </head>
 
@@ -14,10 +14,10 @@
     <noscript>JavaScript is mandatory</noscript>
     <header id="header">
         <div class="header d-inline-flex justify-content-between">
-            <div class="cart d-inline-flex ">
+            <div id="cart" class="cart d-inline-flex ">
                 <a href="">
                 <button type="button" class="btn btn-primary cart"><img class="shoppingCart"
-                        src="./assets/SHOPPINGCART.svg" alt=""></button>
+                        src="./assets/cart.svg" alt=""></button>
                 </a>
             </div>
             <div class="menu d-inline-flex">
@@ -26,7 +26,7 @@
                 <a class="menua menudrop" href="#Start">Start Now</a>
             </div>
             <div class="sing d-inline-flex">
-                <a target="_blank" href="./login.html">
+                <a href="./login.html">
                 <button type="button" class="btn btn-primary">Login / Sing up</button>
                 </a>
             </div>
@@ -34,11 +34,11 @@
     </header>
     <main>
         <div class="bgDiv">
-            <img class="bgS" src="./assets/BACKGROUND.jpg" alt="SNEAKX">
+            <img class="bgS" src="./assets/background.jpg" alt="SNEAKX">
             <div class="overlay-text">
                 <h1>Sneakers | Deals | Dreams</h1>
                 <p class="toP">Buy, Sell and Trade the hottest <br> sneakers worldwide.</p>
-                <button type="button" class="btn btn-primary explore">Explore Drops </button>
+                <a href="#Drops"><button type="button" class="btn btn-primary explore">Explore Drops </button></a>
             </div>
         </div>
     </main>
@@ -48,40 +48,40 @@
     <br>
     <div class="cards row justify-content-around">
         <div class="col-3 cardss">
-            <img class="cardsDrop" src="./assets/RETRO4NAVY.jpg" alt="RETRO4NAVY">
+            <img class="cardsDrop" src="./assets/4retronavy.jpg" alt="RETRO4NAVY">
             <br>
             <br>
             <p class="cardP">
                 Jordan 4 Retro SB “Navy”
                 <br>
                 <br>
-                $000
+                $225
             </p>
-            <button type="button" class="btn btn-primary card">ADD CART </button>
+            <a href="#cart"><button type="button" class="btn btn-primary card">ADD CART </button></a>
         </div>
         <div class="col-3 cardss">
-            <img class="cardsDrop img-fluid" src="./assets/ASICS BLACK.png" alt="ASICS">
+            <img class="cardsDrop img-fluid" src="./assets/asiscblack.png" alt="ASICS">
             <br> 
             <br>
             <p class="cardP">
                 ASICS Gel-1130 Black
                 <br>
                 <br>
-                $000
+                $170
             </p>
-            <button type="button" class="btn btn-primary card ">ADD CART </button>
+            <a href="#cart"><button type="button" class="btn btn-primary card ">ADD CART </button></a>
         </div>
         <div class="col-3 cardss">
-            <img class="cardsDrop" src="./assets/CAMPUSDARKGREEN.jpg" alt="CAMPUSDARKGREEN">
+            <img class="cardsDrop" src="./assets/campusgreen.jpg" alt="CAMPUSDARKGREEN">
             <br>
             <br>
             <p class="cardP">
                 Adidas Campus 00s Dark Green
                 <br>
                 <br>
-                $000
+                $100
             </p>
-            <button type="button" class="btn btn-primary card ">ADD CART </button>
+            <a href="#cart"><button type="button" class="btn btn-primary card ">ADD CART </button></a>
         </div>
     </div>
     <br>
@@ -95,11 +95,11 @@
                 the latest releases to exclusive limited editions — all in one place.</p>
         </div>
         <div class="searchLogo">
-            <img class="sLogo img-fluid" src="./assets/SEARCH.svg" alt="">
+            <img class="sLogo img-fluid" src="./assets/searching.svg" alt="">
         </div>
         <hr>
         <div class="searchLogo">
-            <img class="sLogo " src="./assets/DEAL.svg" alt="">
+            <img class="sLogo " src="./assets/dealing.svg" alt="">
         </div>
         <div class="search">
             <h5 class="midH5">Trade</h5>
@@ -113,7 +113,7 @@
                 safe, and fast for you to move your sneakers with people who share your passion.</p>
         </div>
         <div class="searchLogo">
-            <img class="sLogo" src="./assets/MONEY.svg" alt="">
+            <img class="sLogo" src="./assets/moneyy.svg" alt="">
         </div>
     </div>
     <hr>
@@ -124,19 +124,19 @@
     <div id="Start" class="CTA row">
         <div class="level">
             <p class="levelP">Ready to </p> <h2 class="levelH2">LEVEL UP</h2> <p class="levelP">your sneaker game ?</p>
-            <button type="button" class="btn btn-primary startN">Start Now </button>
+            <a href="./login.html"><button type="button" class="btn btn-primary startN">Start Now </button></a>
         </div>
         <div class="start">
             <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="bps" src="https://i.pinimg.com/736x/f6/9c/80/f69c8080f4687cf22b312d4e4317ae1b.jpg" class="d-block w-100" alt="...">
+                    <img class="bps" src="./assets/bpsblue.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img class="bps" src="https://i.pinimg.com/736x/fc/e0/99/fce0993736e9bb94c3b6fe9f3fa26cbf.jpg" class="d-block w-100" alt="...">
+                    <img class="bps" src="./assets/4amamanier.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img class="bps" src="https://i.pinimg.com/736x/7a/5b/e1/7a5be191ebc4237c444846a26afca6be.jpg" class="d-block w-100" alt="...">
+                    <img class="bps" src="./assets/pumasuede.jpg" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -158,13 +158,13 @@
     <footer>
         <div class=" footer row">
             <div class="logo col-2">
-                <img class="logoW" src="./assets/WHITELOGO.png" alt="">
+                <img class="logoW" src="./assets/whitelogo.png" alt="">
             </div>
             <div class="links col-6">
                 <a target="_blank" href="https://www.instagram.com/">Instagram</a>
                 <a target="_blank" href="https://www.youtube.com/">Youtube</a>
                 <a target="_blank" href="https://www.tiktok.com/">Tiktok</a>
-                <a target="_blank" href="./contact.html">Contact</a>
+                <a href="./contact.html">Contact</a>
             </div>
             <div class="rights col-4">
                 <p>©2025 SneakX. All Rights Reserved</p>
