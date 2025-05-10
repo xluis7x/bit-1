@@ -2,54 +2,79 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 :root {
     --background: #000000;
-    --text: #FFFFFF;    /*text on black backgrounds*/
-    --third-color: #FF2C2C;    /*buttons, icons, etc*/
-    --secondary-backgrounds: #1A1A1A;  
-    --secondary-text: #E0E0E0;    /*secondary text or borders*/
+    --text: #FFFFFF;
+    /*text on black backgrounds*/
+    --third-color: #FF2C2C;
+    /*buttons, icons, etc*/
+    --secondary-backgrounds: #1A1A1A;
+    --secondary-text: #E0E0E0;
+    /*secondary text or borders*/
     --light-red: #e96565;
 }
+
 body {
     background-color: var(--background);
 }
-h1, h2, h5, h6, .levelP {
+
+h1,
+h2,
+h5,
+h6,
+.levelP {
     color: var(--text);
 }
-p, label {
+
+p,
+label {
     color: var(--secondary-text);
 }
+
 hr {
     opacity: 0%;
     margin: 50px auto;
     width: 90%;
-    
+
 }
+
 /*text fonts*/
-h1, .btn, h2, h6, .levelP {
+h1,
+.btn,
+h2,
+h6,
+.levelP {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-  }
-p, label, .message{
+}
+
+p,
+label,
+.message {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-} 
+}
+
 /*              */
 
 /*header */
 h1 {
     font-size: 54px;
 }
+
 header {
     width: 95%;
     margin: auto;
 }
+
 .header {
     width: 100%;
 }
+
 .btn {
     background-color: var(--third-color);
     border-color: var(--secondary-text);
@@ -57,23 +82,30 @@ header {
     padding: 8px 25px;
     margin: 15px;
 }
-.btn:hover, .btn:first-child:hover, :not(.btn-check)+.btn:active{
+
+.btn:hover,
+.btn:first-child:hover,
+:not(.btn-check)+.btn:active {
     background-color: var(--secondary-text);
     border-color: var(--third-color);
-    color: var(--third-color); 
+    color: var(--third-color);
 }
+
 .shoppingCart {
     width: 100%;
     margin: 0px;
 }
+
 .cart {
     margin: 0px;
     padding: 8px 15px;
 }
+
 .menu {
     padding: 20px;
     font-size: 20px;
 }
+
 /*              */
 
 /*top section*/
@@ -81,55 +113,66 @@ header {
     width: 100%;
     position: relative;
 }
+
 .bgS {
     width: 100%;
     opacity: 20%;
 }
+
 .overlay-text {
     position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    text-align: center; 
-    padding: 10px; 
+    text-align: center;
+    padding: 10px;
 }
+
 .explore {
     border-radius: 5px;
     padding: 10px 12px;
 }
+
 .toP {
     font-size: 28px;
 }
+
 /*              */
 
 /*cards*/
 .cardH2 {
     margin: 10px 200px;
 }
+
 .cards {
     width: 80%;
     margin: auto;
 }
+
 .cardss {
     background-color: var(--secondary-backgrounds);
     border-radius: 12px;
     padding: 35px 20px 10px;
 }
+
 .cardsDrop {
     opacity: 80%;
     width: 100%;
     height: 40%;
     border-radius: 8px;
 }
+
 .cardP {
     font-size: 22px;
     width: 80%;
 }
+
 .card {
     color: var(--text);
     margin: 20px auto;
 }
+
 /*              */
 
 /*how it works section */
@@ -137,33 +180,40 @@ header {
     margin: 0px 0px 70px;
     text-align: center;
 }
+
 .midH5 {
     color: var(--secondary-text);
     font-style: italic;
     font-weight: 700;
     font-size: 28px;
 }
+
 .midSection {
     width: 70%;
     margin: auto;
 }
+
 .search {
     background-color: var(--secondary-backgrounds);
     padding: 50px;
     width: 60%;
     height: 100%;
 }
+
 .midP {
     font-size: 21px;
 }
+
 .searchLogo {
     width: 40%;
 }
+
 .sLogo {
-    margin:40px 30px 30px 92px;
+    margin: 40px 30px 30px 92px;
     width: 45%;
     padding: 20px;
 }
+
 /*              */
 
 /*small section*/
@@ -173,14 +223,16 @@ header {
     border-top: solid 3px var(--secondary-text);
     border-bottom: solid 3px var(--secondary-text);
     padding: 20px;
-    
+
 }
+
 h6 {
     margin: 0;
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
 }
+
 /*              */
 
 /*call to action*/
@@ -192,43 +244,53 @@ h6 {
     border-radius: 50px;
     border: solid 4px var(--secondary-text);
 }
+
 .level {
     width: 50%;
     padding: 20px 110px;
 }
+
 .start {
     width: 50%;
     padding: 15px;
 }
+
 .bps {
     width: 87%;
     border-radius: 25px;
     margin: 0px 28px 40px;
 }
-.levelP{
+
+.levelP {
     font-size: 50px;
 }
+
 .levelH2 {
     font-size: 104px;
     text-shadow:
-    10px 1px 0 #c00,
-    -1px -1px 0 #c00,
-    10px -1px 0 #c00,
-    -1px 1px 0 #c00,
-    0 0 6px #a00;
+        10px 1px 0 #c00,
+        -1px -1px 0 #c00,
+        10px -1px 0 #c00,
+        -1px 1px 0 #c00,
+        0 0 6px #a00;
 }
-.startN, .talk {
+
+.startN,
+.talk {
     background-color: var(--background);
     color: var(--secondary-text);
     padding: 10px 40px;
     margin-left: -5px;
 }
-.carousel-control-next{
-    margin-right: 15px; 
+
+.carousel-control-next {
+    margin-right: 15px;
 }
+
 .carousel {
     opacity: 90%;
 }
+
 /*              */
 .top {
     width: 50%;
@@ -236,18 +298,23 @@ h6 {
     margin: auto;
     opacity: 90%;
 }
-.up {   
+
+.up {
     width: 8%;
 }
+
 /*footer*/
 .footer {
     width: 100.8%;
     background-color: var(--secondary-backgrounds);
 }
-.links, .rights {
+
+.links,
+.rights {
     padding: 48px 20px 20px;
     text-align: center;
 }
+
 a {
     margin: 20px;
     text-decoration: none;
@@ -256,14 +323,17 @@ a {
     font-weight: 400;
     font-style: normal;
 }
+
 a:hover {
     color: var(--third-color);
 }
+
 .logoW {
     width: 60%;
     padding: 10px 0px;
     margin-left: 42px;
 }
+
 /*              */
 
 /*login page*/
@@ -271,10 +341,12 @@ a:hover {
     float: left;
     padding: 10px 0px;
 }
+
 .backLogin {
     background-image: url("../assets/backgroundlogin.jpg");
     height: 100vh;
 }
+
 .box {
     display: grid;
     grid-template-columns: 45% 50%;
@@ -282,24 +354,30 @@ a:hover {
     width: 90%;
     margin: auto;
 }
+
 .formlog {
     text-align: center;
 }
-.login, .sign{
+
+.login,
+.sign {
     background-color: var(--third-color);
     padding: 40px;
     margin-top: 40px;
     border-radius: 25px;
     border: solid 2px var(--secondary-text);
 }
+
 .login {
     height: 74%;
     margin-top: 90px;
     padding: 30px;
 }
+
 .loginput {
     width: 50%;
 }
+
 .or {
     background-color: var(--light-red);
     border-radius: 2px;
@@ -309,6 +387,7 @@ a:hover {
     color: var(--background);
     text-align: center;
 }
+
 /*              */
 
 /*contact page*/
@@ -317,11 +396,13 @@ a:hover {
     margin: 20px 40px;
     padding: 50px 45px;
 }
-.contactH1{
+
+.contactH1 {
     font-size: 38px;
 }
-.form-box{
-    display: grid;  
+
+.form-box {
+    display: grid;
     grid-template-columns: 50%;
     background-color: var(--third-color);
     width: 60%;
@@ -331,12 +412,15 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
 .form {
     width: 100%;
     margin: auto;
     padding: 45px;
 }
-input, textarea {
+
+input,
+textarea {
     background-color: var(--secondary-backgrounds);
     width: 100%;
     height: 50px;
@@ -346,164 +430,211 @@ input, textarea {
     padding: 15px;
     font-size: 16px;
 }
+
 .message {
     height: 100px;
 }
+
 .talk {
     font-size: 16px;
     font-style: italic;
 }
+
 /*              */
 
 /*media queries*/
 @media screen and (min-width: 1201px) and (max-width: 1300px) {
+
     /*call to action*/
     .CTA {
         width: 70%;
         padding: 0px;
     }
-    .level{
+
+    .level {
         width: 80%;
         margin: auto;
         padding: 50px;
     }
+
     .start {
         width: 70%;
         margin-left: 140px;
     }
-    .carousel-control-prev{
-        margin-left: 2px; 
+
+    .carousel-control-prev {
+        margin-left: 2px;
     }
-    .carousel-control-next{
-        margin-right: 15px; 
+
+    .carousel-control-next {
+        margin-right: 15px;
     }
+
     /*              */
     /*footer*/
     .footer {
         width: 100.9%;
     }
+
     .logoW {
         width: 80%;
         margin-top: 5px;
     }
-  }
+}
 
-  @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .btn {
         margin: 0px;
     }
-    .sing{
+
+    .sing {
         margin: 15px 0px;
     }
+
     /*              */
 
     /*top section*/
     .overlay-text {
         width: 80%;
     }
+
     /*              */
 
     /*cards section*/
     .cardH2 {
         margin: 0px 150px;
     }
-    .cardss { 
+
+    .cardss {
         padding: 35px 30px;
     }
+
     .col-3 {
         width: 30%;
         margin: 10px
     }
+
     /*              */
-    
+
     /*how it works section */
     .searchLogo {
         width: 30%;
     }
-    .sLogo{
+
+    .sLogo {
         width: 70%;
         margin: 60px 30px;
     }
+
     /*              */
-    
+
     /*call to action*/
     .CTA {
         width: 70%;
         padding: 0px;
     }
-    .level{
+
+    .level {
         width: 80%;
         margin: auto;
         padding: 50px;
     }
+
     .start {
         width: 70%;
         margin-left: 140px;
     }
-    .carousel-control-prev{
-        margin-left: 2px; 
+
+    .carousel-control-prev {
+        margin-left: 2px;
     }
-    .carousel-control-next{
-        margin-right: 15px; 
+
+    .carousel-control-next {
+        margin-right: 15px;
     }
+
     /*              */
     /*footer*/
     .footer {
         width: 101%;
     }
+
     .logoW {
         width: 80%;
         margin-top: 5px;
     }
-  }
+     /*contact page*/
 
-  @media screen and (max-width: 1090px) {
+
+    .contactHead {
+        margin-bottom: 0px;
+    }
+
+    .form-box {
+        display: grid;
+        grid-template-columns: 70%;
+        width: 70%;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
     .btn {
         margin: 0px;
     }
-    .sing{
+
+    .sing {
         margin: 15px 0px;
     }
+
     /*              */
 
     /*top section*/
     .overlay-text {
         width: 80%;
     }
+
     hr {
         margin: 10px auto;
     }
+
     /*              */
 
     /*cards section*/
-    .cardss { 
+    .cardss {
         padding: 35px 30px;
     }
+
     .col-3 {
         width: 35%;
         margin: 20px
     }
+
     /*              */
-    
+
     /*how it works section */
     .search {
         width: 70%;
     }
+
     .searchLogo {
         width: 30%;
         margin: 0px;
     }
-    .sLogo{
+
+    .sLogo {
         width: 90%;
         margin: 60px 0px;
         padding: 10px;
     }
+
     /*              */
-    
+
     /*small section*/
     .smallSection {
         margin: 50px 0px;
     }
+
     /*              */
 
     /*call to action*/
@@ -511,290 +642,494 @@ input, textarea {
         width: 70%;
         padding: 0px;
     }
-    .level{
+
+    .level {
         width: 80%;
         margin: auto;
         padding: 50px;
     }
+
     .start {
         width: 70%;
         margin-left: 120px;
     }
-    .carousel-control-prev{
-        margin-left: 2px; 
+
+    .carousel-control-prev {
+        margin-left: 2px;
     }
-    .carousel-control-next{
-        margin-right: 10px; 
+
+    .carousel-control-next {
+        margin-right: 10px;
     }
+
     /*              */
     .top {
-    width: 70%;
+        width: 70%;
     }
+
     /*footer*/
-    .footer{
+    .footer {
         width: 101.1%;
     }
-    .links, .rights {
+
+    .links,
+    .rights {
         padding: 30px 30px 8px;
     }
+
     .logoW {
         width: 80%;
         margin-top: 5px;
     }
-  }
 
-  @media screen and (max-width: 768px) {
-    header {
-        width: 100%; 
+    /*login page*/
+
+    .backLogin {
+        background-image: url("../assets/backgroundlogin.jpg");
+        height: 100%;
     }
+
+    .box {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 0px;
+        padding: 0px 200px 50px;
+    }
+
+    .login {
+        height: 100%;
+        margin-top: 0px;
+        padding: 30px;
+    }
+
+    .loginput {
+        width: 100%;
+    }
+    
+    /*contact page*/
+
+
+    .contactHead {
+        margin-bottom: 0px;
+    }
+
+    .form-box {
+        display: grid;
+        grid-template-columns: 70%;
+        width: 70%;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+
     h1 {
         font-size: 37px;
     }
+
     .btn {
         margin: 0px;
     }
-    .sing{
+
+    .sing {
         margin: 15px 0px;
     }
+
     /*              */
 
     /*top section*/
     .toP {
         font-size: 25px;
     }
+
     .overlay-text {
         width: 80%;
     }
+
     hr {
         margin: 10px auto;
     }
+
     /*              */
 
     /*cards section*/
     .cardH2 {
         margin: 5px 80px;
     }
+
     .cards {
         width: 100%;
     }
-    .cardss { 
+
+    .cardss {
         padding: 35px 30px;
     }
+
     .col-3 {
         width: 35%;
         margin: 20px
     }
+
     /*              */
-    
+
     /*how it works section */
     .search {
         width: 70%;
     }
+
     .searchLogo {
         width: 30%;
         margin: 0px;
     }
-    .sLogo{
+
+    .sLogo {
         width: 100%;
         margin: 110px 0px 50px;
         padding: 10px;
     }
+
     /*              */
-    
+
     /*small section*/
     h6 {
         font-size: 18px;
     }
+
     .smallSection {
         margin: 50px 0px;
     }
+
     /*              */
 
     /*call to action*/
     .CTA {
         padding: 0px;
     }
-    .level{
+
+    .level {
         width: 80%;
         margin: auto;
         padding: 50px;
     }
+
     .levelP {
         font-size: 60px;
     }
+
     .levelH2 {
         font-size: 100px;
     }
+
     .start {
         width: 80%;
         margin-left: 55px;
     }
-    .carousel-control-prev{
-        margin-left: 10px; 
+
+    .carousel-control-prev {
+        margin-left: 10px;
     }
-    .carousel-control-next{
-        margin-right: 5px; 
+
+    .carousel-control-next {
+        margin-right: 5px;
     }
+
     /*              */
     .top {
-    width: 100%;
+        width: 100%;
     }
+
     /*footer*/
-    .footer{
+    .footer {
         width: 101.6%;
     }
+
     a {
         margin: 20px;
     }
-    .links, .rights {
+
+    .links,
+    .rights {
         padding: 30px 30px 8px;
     }
+
     .logoW {
         width: 100%;
         padding: 0px;
         margin-top: 15px;
     }
-  }
 
-  @media screen and (max-width: 576px) {
-    header {
-        width: 100%; 
+    /*login page*/
+
+    .backLogin {
+        background-image: url("../assets/backgroundlogin.jpg");
+        height: 100%;
     }
+
+    .box {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 0px;
+        padding: 0px 120px 50px;
+    }
+
+    .login {
+        height: 100%;
+        margin-top: 0px;
+        padding: 30px;
+    }
+
+    .loginput {
+        width: 100%;
+    }
+
+    /*contact page*/
+
+    .contactH1 {
+        font-size: 34px;
+    }
+
+    .contactHead {
+        margin-bottom: 0px;
+    }
+
+    .form-box {
+        display: grid;
+        grid-template-columns: 70%;
+        width: 90%;
+        margin-bottom: 0px;
+    }
+}
+
+/*              */
+
+@media screen and (max-width: 576px) {
+    header {
+        width: 100%;
+    }
+
     h1 {
         font-size: 27px;
     }
+
     .btn {
         margin: 0px;
     }
+
     .shoppingCart {
         width: 25px;
         margin: 0px;
     }
+
     .cart {
         margin: 3px 0px;
         padding: 8px;
     }
-    .sing{
+
+    .sing {
         margin: 15px 0px;
     }
+
     .menu {
         font-size: 16px;
         padding: 12px 0px;
     }
-    .menua{
+
+    .menua {
         font-size: 16px;
         padding: 2px 0px;
     }
+
     .menudrop {
         padding: 10px;
     }
+
     /*              */
 
     /*top section*/
     .toP {
         font-size: 22px;
     }
+
     .overlay-text {
         width: 70%;
     }
+
     hr {
         margin: 10px auto;
     }
+
     /*              */
 
     /*cards section*/
     .cardH2 {
         margin: 5px 80px;
     }
+
     .cards {
         width: 100%;
     }
-    .cardss { 
+
+    .cardss {
         padding: 35px 30px;
     }
+
     .col-3 {
         width: 50%;
         margin: 20px
     }
+
     .cardP {
         font-size: 18px;
     }
+
     /*              */
-    
+
     /*how it works section */
-    .midP{
+    .midP {
         font-size: 18px;
     }
+
     .search {
         width: 70%;
     }
+
     .searchLogo {
         width: 30%;
         margin: 0px;
     }
-    .sLogo{
+
+    .sLogo {
         width: 100%;
         margin: 140px 0px 50px;
         padding: 10px;
     }
+
     /*              */
-    
+
     /*small section*/
     h6 {
         font-size: 18px;
     }
+
     .smallSection {
         margin: 50px 0px;
     }
+
     /*              */
 
     /*call to action*/
     .CTA {
         padding: 0px;
     }
-    .level{
+
+    .level {
         width: 80%;
         padding: 50px 30px;
     }
+
     .levelP {
         font-size: 50px;
     }
+
     .levelH2 {
         font-size: 80px;
     }
+
     .start {
         width: 80%;
         margin-left: 40px;
     }
-    .carousel-control-prev{
-        margin-left: 15px; 
+
+    .carousel-control-prev {
+        margin-left: 15px;
     }
-    .carousel-control-next{
-        margin-right: 0px; 
+
+    .carousel-control-next {
+        margin-right: 0px;
     }
+
     /*              */
     .top {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    opacity: 90%;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        opacity: 90%;
     }
-    .up {   
-    width: 10%;
+
+    .up {
+        width: 10%;
     }
+
     /*footer*/
-    .footer{
+    .footer {
         width: 102.1%;
     }
+
     a {
         margin: 5px;
     }
-    
+
     .logoW {
         width: 100%;
         padding: 0px;
         margin-left: 20px;
         margin-top: 30px;
     }
-  }
-/*              */
+
+    /*login page*/
+
+    .backLogin {
+        background-image: url("../assets/backgroundlogin.jpg");
+        height: 100%;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 0px;
+        padding: 50px;
+        margin-bottom: 0px;
+    }
+
+    .formlog {
+        text-align: center;
+    }
+
+    .login {
+        height: 100%;
+        margin-top: 0px;
+        padding: 30px;
+    }
+
+    .loginput {
+        width: 100%;
+    }
+
+    /*contact page*/
+
+    .contactH1 {
+        font-size: 28px;
+    }
+
+    .contactHead {
+        margin-bottom: 0px;
+    }
+
+    .form-box {
+        display: grid;
+        grid-template-columns: 70%;
+        width: 90%;
+        margin-bottom: 0px;
+    }
+
+    .form {
+        width: 100%;
+        margin: auto;
+        padding: 35px 35px;
+    }
+
+    /*              */
+}
