@@ -8,6 +8,25 @@ I will use everything I've learn about HTML, CSS and star with Java stuff, it'll
 
 Maybe in the future I could use this website to start a new bussiness, sneakers community is big enough to create a new brand or project. 
 
+Creation process 
+---
+At the beginning I need to make my ideas come true so I created my low-fidelity prototype in [Figma](https://www.figma.com/design/dDiDUPWSeYNAk2VIE6hLF1/SneakX?node-id=0-1&t=knZgx8WVOKq6b5Xu-1) 
+
+-> Moodboard: 
+
+![alt text](image.png)
+
+-> First Design: 
+
+![alt text](image-1.png)
+
+-> Login/sign up and contact pages: 
+
+![alt text](image-2.png)
+
+And finally...
+[the result](https://xluis7x.github.io/bit-1/index.html)
+
 ---
 >Author
 >> Luis Bejarano 
