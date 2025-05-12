@@ -14,15 +14,15 @@ At the beginning I need to make my ideas come true so I created my low-fidelity 
 
 -> Moodboard: 
 
-![alt text](image.png)
+![alt text](./assets/image.png)
 
 -> First Design: 
 
-![alt text](image-1.png)
+![alt text](/assets/image-1.png)
 
 -> Login/sign up and contact pages: 
 
-![alt text](image-2.png)
+![alt text](/assets/image-2.png)
 
 And finally...
 [the result](https://xluis7x.github.io/bit-1/index.html)
